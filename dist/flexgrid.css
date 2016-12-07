@@ -64,10 +64,6 @@
   [class*='col-'] {
     margin-right: 0;
   }
-  .row {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
   .col-mobile-20 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 20%;
