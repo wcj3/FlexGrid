@@ -1,15 +1,6 @@
 /*
 * CONTAINER STYLING
 */
-vendor-flex(prop, args)
-    -webkit-{prop} args
-    {prop} args
-vendor(prop, args)
-    -webkit-{prop} args
-    -moz-{prop} args
-    {prop} args
-flex()
-  vendor-flex('flex', arguments)
 .container
   display: flex
   max-width: 1200px
@@ -17,6 +8,7 @@ flex()
   margin: 0 auto
 .container, .container [class*='col-'], .container .row
   box-sizing: border-box
+  display: flex
 /*
 * ROW STYLING
 */
@@ -31,33 +23,33 @@ flex()
 
 //DESKTOP STYLING
 .col-desktop-20
-  flex(0 0 20%)
+  flex:0 0 20%
 .col-desktop-33
-  flex(0 0 33%)
+  flex:0 0 33%
 .col-desktop-40
-  flex(0 0 40%)
+  flex:0 0 40%
 .col-desktop-60
-  flex(0 0 60%)
+  flex:0 0 60%
 .col-desktop-80
-  flex(0 0 80%)
+  flex:0 0 80%
 .col-desktop-100
-  flex(0 0 100%)
+  flex:0 0 100%
 //MOBILE STYLING
 @media (max-width: 450px)
   [class*='col-']
     margin-right: 0
   .col-mobile-20
-    flex(0 0 20%)
-.col-mobile-33
-  flex(0 0 33%)
+        flex:0 0 20%
+  .col-mobile-33
+      flex:0 0 33%
   .col-mobile-40
-    flex(0 0 40%)
+    flex:0 0 40%
   .col-mobile-60
-    flex(0 0 60%)
+    flex:0 0 60%
   .col-mobile-80
-    flex(0 0 80%)
+    flex:0 0 80%
   .col-mobile-100
-    flex(0 0 100%)
+    flex:0 0 100%
 //Helper classes
 .center
     justify-content: center
