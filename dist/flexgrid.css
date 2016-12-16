@@ -60,6 +60,7 @@
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
 }
+/*Mobile styling*/
 @media (max-width: 450px) {
   [class*='col-'] {
     margin-right: 0;
