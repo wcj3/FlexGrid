@@ -26,6 +26,8 @@
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 5px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 [class*='row']:last-of-type {
   margin-bottom: 0;
