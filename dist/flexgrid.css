@@ -9,6 +9,7 @@
   -ms-flex-flow: column nowrap;
       flex-flow: column nowrap;
   margin: 0 auto;
+  position: relative;
 }
 .container,
 .container [class*='col-'],
