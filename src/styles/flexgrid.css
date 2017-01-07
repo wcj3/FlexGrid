@@ -9,6 +9,7 @@
   -ms-flex-flow: column nowrap;
       flex-flow: column nowrap;
   margin: 0 auto;
+  position: relative;
 }
 .container,
 .container [class*='col-'],
@@ -75,7 +76,7 @@
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
 }
-@media (max-width: 450px) {
+@media (max-width: 768px) {
   [class*='col-'] {
     margin-right: 0;
   }
